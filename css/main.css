@@ -23,7 +23,15 @@ body {
 }
 
 .navButton, .navSelect {
-    padding: 1%;
+    padding: 1% 15px;
+    font-family: Calibri;
+    font-size: 20px;
+}
+.navSelect {
+    color: #66cae7
+}
+.navButton {
+    color: #6c9ae7;
 }
 
 .titles {
