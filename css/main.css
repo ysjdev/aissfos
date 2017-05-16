@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0%;
+    margin: 0%;
+}
+
+.mainNavigator {
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+
+}
+
+.navButtons, .navButton, .navSelect{
+    display: inline;
+}
+.menuButtons {
+    margin: auto;
+    width: 30%;
+}
+
+.navButton, .navSelect {
+    padding: 1%;
+}
+
+.titles {
+    height: 100%;
+    padding: 15%;
+}
+
+.mainTitle, .mainSubtitle {
+    color: white;
+    font-family: "Californian FB";
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.mainTitle {
+    font-size: 90px;
+}
+.mainSubtitle{
+    font-size: 28px;
+}
