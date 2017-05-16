@@ -1,3 +1,14 @@
-.subParametro, #inputsMetros, #inputsPrecio {
+.busquedaContainer {
+    background-color: white;
+    margin: auto;
+    padding: 0.5%;
+    width: 25%;
+}
+
+.seccionParametro {
+
+}
+
+.subParametro {
     display: inline;
 }
