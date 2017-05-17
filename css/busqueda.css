@@ -33,6 +33,14 @@
     display: inline-block;
 }
 
+.mediosForm {
+    background-color: #4285f4;
+}
+
+.mediosButtons {
+    width: 170px;
+    margin: auto;
+}
 
 .medioCheckbox {
     display:none;
