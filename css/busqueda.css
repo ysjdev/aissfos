@@ -1,3 +1,7 @@
+.banner {
+    margin: 8px;
+}
+
 .parametrosBusqueda, .personasBusqueda, .resultadosBusqueda {
     background-color: white;
     margin: 30px;
@@ -10,19 +14,15 @@
 .parametrosBusqueda {
     width: 20%;
 }
-.formularioBusqueda {
-}
 
 .resultadosBusqueda {
     background-color: white;
-    width: 20%;
-    height: 20px;
+    width: 40%;
 }
 
 .personasBusqueda {
     background-color: white;
     width: 20%;
-    height: 20px;
 }
 
 .seccionParametro {

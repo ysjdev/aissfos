@@ -1,3 +1,9 @@
+div {
+    font-family: Calibri;
+    font-size: 18px;
+    color: #6c9ae7
+}
+
 body {
     background-image: url(../images/background.jpg);
     background-size: cover;
