@@ -32,3 +32,40 @@
 .parametrosBusqueda, .resultadosBusqueda, .personasBusqueda {
     display: inline-block;
 }
+
+
+.medioCheckbox {
+    display:none;
+}
+
+.medioCheckbox + label, .medioCheckbox:checked + label {
+    display:inline-block;
+    padding: 0 0 0 0px;
+    height: 52px;
+    width: 51px;;
+    background-size: 50%;
+}
+
+#coche + label {
+    background:url("../images/cochesin.jpg") no-repeat;
+}
+
+#coche:checked + label {
+    background:url("../images/coche.png") no-repeat;
+}
+
+#publico + label {
+    background:url("../images/publicosin.png") no-repeat;
+}
+
+#publico:checked + label {
+    background:url("../images/publico.png") no-repeat;
+}
+
+#bici + label {
+    background:url("../images/bicisin.png") no-repeat;
+}
+
+#bici:checked + label {
+    background:url("../images/bici.png") no-repeat;
+}
