@@ -1,14 +1,34 @@
-.busquedaContainer {
+.parametrosBusqueda, .personasBusqueda, .resultadosBusqueda {
     background-color: white;
-    margin: auto;
-    padding: 0.5%;
-    width: 25%;
+    margin: 30px;
+    padding: 5px;
+    border: 5px solid;
+    border-color: #dff7f9;
+    border-radius: 2px;
+}
+
+.parametrosBusqueda {
+    width: 20%;
+}
+.formularioBusqueda {
+}
+
+.resultadosBusqueda {
+    background-color: white;
+    width: 20%;
+    height: 20px;
+}
+
+.personasBusqueda {
+    background-color: white;
+    width: 20%;
+    height: 20px;
 }
 
 .seccionParametro {
 
 }
 
-.subParametro {
-    display: inline;
+.parametrosBusqueda, .resultadosBusqueda, .personasBusqueda {
+    display: inline-block;
 }
