@@ -90,3 +90,39 @@
     height: 400px;
 }
 
+.lugar {
+    border: 2px solid;
+    border-color: #103547;
+    position: relative;
+    margin: 8px;
+    margin-left: 0px;
+}
+
+.lugarTitle {
+    font-size: 20px;
+}
+
+.lugarPrioridad {
+    font-size: 15px;
+}
+
+.lugarButtons {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.vista1Buttons {
+    height: 40px;
+    margin: 1px;
+}
+
+.vista1Button {
+    height: inherit;
+    width: 49.5%;
+    margin: auto;
+}
+
+.indiceEquilibrio, .precioVivienda, .datosVivienda {
+    display: inline-block;
+}

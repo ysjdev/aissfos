@@ -82,11 +82,70 @@
             <div></div>
         </div>
         <div class="resultadosBusqueda">
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
-            <div>a</div>
+            <div class="vista1Buttons">
+                <button class="vista1Button" id="vistaMapa">
+                    Mapa
+                </button>
+                <button class="vista1Button" id="vistaLista">
+                    Lista
+                </button>
+            </div>
+            string address
+            integer bathrooms
+            string floor
+            integer price
+            integer rooms
+            integer size
+            string url
+            <div class="viviendaContainer">
+                <div class="direccionVivienda">
+                    Dirección: Avenida La Que Sea
+                </div>
+                <div class="infoVivienda">
+                    <div class="indiceEquilibrio">
+                        <div class="tituloIndice">
+                            ¡Estupendo!
+                        </div>
+                        <div class="valorIndice">
+                            8.7
+                        </div>
+                    </div>
+                    <div class="precioVivienda">
+                        450 Euros
+                    </div>
+                    <div class="datosVivienda">
+                        Habitaciones: 4
+                        Tamaño: 80
+                        Planta: 3
+                        Cuartos de baño: 1
+                    </div>
+                </div>
+                <div class="urlVivienda">
+                    URL: <a href=""></a>
+                </div>
+            </div>
+            <div>
+                <script>
+
+                    function initMap() {
+                        var myLatLng = {lat: 37.35953, lng: -5.986261};
+
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 4,
+                            center: myLatLng
+                        });
+
+                        var marker = new google.maps.Marker({
+                            position: myLatLng,
+                            map: map,
+                            title: 'Reina Mercedes'
+                        });
+                    }
+                </script>
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgmEBnKv0VzzrU9DixhCjkHAxV2Z9Ro4c&callback=initMap">
+                </script>
+            </div>
         </div>
         <div class="personasBusqueda">
             <div class="personaContainer">
@@ -105,8 +164,28 @@
             </div>
             <div class="lugarContainer">
                 <div class="lugar">
-                    <h4> ETSII</h4>
-                    <h5>Prioridad Alta</h5>
+                    <div class="lugarTitle"> ETSII</div>
+                    <div class="lugarPrioridad">Prioridad Alta</div>
+                    <div class="lugarButtons">
+                        <button class="lugarButton" id="lugar1Editar">
+                            Editar
+                        </button>
+                        <button class="lugarButton" id="lugar1Borrar">
+                            Borrar
+                        </button>
+                    </div>
+                </div>
+                <div class="lugar">
+                    <div class="lugarTitle"> Nervión</div>
+                    <div class="lugarPrioridad">Prioridad Media</div>
+                    <div class="lugarButtons">
+                        <button class="lugarButton" id="lugar2Editar">
+                            Editar
+                        </button>
+                        <button class="lugarButton" id="lugar2Borrar">
+                            Borrar
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="mediosContainer">
