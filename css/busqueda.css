@@ -125,4 +125,12 @@
 
 .indiceEquilibrio, .precioVivienda, .datosVivienda {
     display: inline-block;
+    margin: 0px 5%;
+}
+
+.viviendaContainer {
+    border: 2px solid;
+    border-color: #103547;
+    margin: 8px;
+    margin-left: 0px;
 }
